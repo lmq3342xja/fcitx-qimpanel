@@ -133,10 +133,6 @@ msgstr "面板宽度调节"
 msgid "AdjustHeight"
 msgstr "面板高度调节"
 
-#: config-tool/editingskindialog.cpp:67
-msgid "&Cancel"
-msgstr "取消"
-
 #: config-tool/editingskindialog.cpp:68
 msgid "&Ok"
 msgstr "确定"
@@ -200,6 +196,7 @@ msgstr "单击选择并预览，双击创造本地配置或者进行编辑"
 msgid "&Apply"
 msgstr "应用"
 
+#: config-tool/editingskindialog.cpp:67
 #: config-tool/mainwindow.cpp:44
 msgid "&Cancel"
 msgstr "取消"
