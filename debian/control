@@ -1,0 +1,29 @@
+Source: fcitx-qimpanel
+Section: utils
+Priority: optional
+Maintainer: Aron Xu <happyaron@ubuntu.com>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               fcitx-libs-dev (>= 1:4.2.8.1),
+               libqt4-dev (>= 4:4.8.0)
+Standards-Version: 3.9.5
+Homepage: http://github.com/lenky0401/fcitx-qimpanel
+
+Package: fcitx-ui-qimpanel
+Architecture: any
+Depends: fcitx-bin,
+         fcitx-data (>= 1:4.2.8.1),
+         fcitx-modules,
+         fcitx-module-dbus (>= 1:4.2.8.1),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: fcitx (>= 1:4.2.8.1)
+Breaks: fcitx (<< 1:4.2.8.1), fcitx-qimpanel-configtool
+Replaces: fcitx-qimpanel-configtool
+Description: Flexible Input Method Framework - Qt IMPanel user interface
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ This package provides the Qt IMPanel user interface developed by
+ Ubuntu Kylin Team.

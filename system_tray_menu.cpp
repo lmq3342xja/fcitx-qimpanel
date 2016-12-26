@@ -110,12 +110,13 @@ void SystemTrayMenu::updateProperty(const KimpanelProperty &prop)
 }
 void SystemTrayMenu::clearMenu()
 {
-    this->clear();
+//    this->clear();//会崩溃
 }
 
 void SystemTrayMenu::updateMainMenu()
 {
-    this->clear();
+    if(!this->isEmpty())
+        this->clear();
     this->addAction(QIcon::fromTheme("help-contents"), gettext("Online &Help!"));
     this->addSeparator();
 
@@ -280,7 +281,11 @@ bool SystemTrayMenu::isMozcToolList(const QString &key)
 
 void SystemTrayMenu::execMenu(const QList<KimpanelProperty> &prop_list)
 {
+    if(prop_list.isEmpty())
+            return;
     QList<KimpanelProperty>::const_iterator iter = prop_list.begin();
+    if(iter->key.isNull())
+        return;
     if (isIMList(iter->key))
         mIMList = prop_list;
     else if (isVKList(iter->key))
@@ -414,7 +419,7 @@ void SystemTrayMenu::menuItemOnClick(QAction *action)
             mAgent->triggerProperty(myAction->getProp().key);
         }
     }
-        this->clear();
+//        this->clear();
 }
 
 bool SystemTrayMenu::isUnity()

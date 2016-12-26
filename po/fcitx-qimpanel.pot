@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx-qimpanel\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 10:37+0800\n"
+"POT-Creation-Date: 2016-12-26 11:54+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -133,7 +133,7 @@ msgstr ""
 msgid "AdjustHeight"
 msgstr ""
 
-#: config-tool/editingskindialog.cpp:67
+#: config-tool/editingskindialog.cpp:67 config-tool/mainwindow.cpp:50
 msgid "&Cancel"
 msgstr ""
 
@@ -201,75 +201,71 @@ msgstr ""
 msgid "&Apply"
 msgstr ""
 
-#: config-tool/mainwindow.cpp:50
-msgid "&Cancel"
-msgstr ""
-
 #: config-tool/mainwindow.cpp:120 config-tool/mainwindow.cpp:134
 #: config-tool/mainwindow.cpp:156 config-tool/mainwindow.cpp:168
 msgid "Sougo Skin does not support preview and edit!"
 msgstr ""
 
-#: main_controller.cpp:274 system_tray_menu.cpp:111
+#: main_controller.cpp:276 system_tray_menu.cpp:107
 msgid "No input window"
 msgstr ""
 
-#: system_tray_menu.cpp:60
+#: system_tray_menu.cpp:57
 msgid "Virtual Keyboard"
 msgstr ""
 
-#: system_tray_menu.cpp:61
+#: system_tray_menu.cpp:58
 msgid "Skin"
 msgstr ""
 
-#: system_tray_menu.cpp:62
+#: system_tray_menu.cpp:59
 msgid "Mozc Edit mode"
 msgstr ""
 
-#: system_tray_menu.cpp:63
+#: system_tray_menu.cpp:60
 msgid "Mozc Tool"
 msgstr ""
 
-#: system_tray_menu.cpp:123 system_tray_menu.cpp:393
+#: system_tray_menu.cpp:121 system_tray_menu.cpp:367
 msgid "Online &Help!"
 msgstr ""
 
-#: system_tray_menu.cpp:153 system_tray_menu.cpp:408
+#: system_tray_menu.cpp:151 system_tray_menu.cpp:382
 msgid "ConfigureFcitx"
 msgstr ""
 
-#: system_tray_menu.cpp:154 system_tray_menu.cpp:399
+#: system_tray_menu.cpp:152 system_tray_menu.cpp:373
 msgid "ConfigureIMPanel"
 msgstr ""
 
-#: system_tray_menu.cpp:158 system_tray_menu.cpp:418
+#: system_tray_menu.cpp:156 system_tray_menu.cpp:392
 msgid "Character Map"
 msgstr ""
 
-#: system_tray_menu.cpp:159 system_tray_menu.cpp:420
+#: system_tray_menu.cpp:157 system_tray_menu.cpp:394
 msgid "Keyboard Layout Chart"
 msgstr ""
 
-#: system_tray_menu.cpp:160 system_tray_menu.cpp:440
+#: system_tray_menu.cpp:158 system_tray_menu.cpp:414
 msgid "Text Entry Settings..."
 msgstr ""
 
-#: system_tray_menu.cpp:396
+#: system_tray_menu.cpp:370
 msgid "ConfigureIM"
 msgstr ""
 
-#: system_tray_menu.cpp:403
+#: system_tray_menu.cpp:377
 msgid "Warning"
 msgstr ""
 
-#: system_tray_menu.cpp:403
+#: system_tray_menu.cpp:377
 msgid "Please install fcitx-qimpanel-configtool!"
 msgstr ""
 
-#: system_tray_menu.cpp:411
+#: system_tray_menu.cpp:385
 msgid "Restart"
 msgstr ""
 
-#: system_tray_menu.cpp:415
+#: system_tray_menu.cpp:389
 msgid "Exit"
 msgstr ""

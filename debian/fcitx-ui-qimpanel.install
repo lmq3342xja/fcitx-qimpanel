@@ -1,0 +1,2 @@
+debian/fcitx-qimpanel-autostart usr/bin/
+debian/fcitx-qimpanel-autostart.desktop etc/xdg/autostart/

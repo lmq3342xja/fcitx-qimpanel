@@ -101,6 +101,7 @@ void MainController::init()
 #ifdef IS_QT_5
     mView = new QQuickWidget;
 #endif
+
 #ifdef IS_QT_4
     mView = new QDeclarativeView;
 #endif
@@ -119,6 +120,7 @@ void MainController::init()
     mView->rootContext()->setContextProperty("mainWidget", mTopLevel);
     mView->setSource(QUrl("qrc:/qml/qt5_main.qml"));
 #endif
+
 #ifdef IS_QT_4
     mView->setContentsMargins(0, 0, 0, 0);
     mView->setResizeMode(QDeclarativeView::SizeViewToRootObject);
