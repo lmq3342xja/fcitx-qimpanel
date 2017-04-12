@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Canonical Ltd.
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the fcitx-qimpanel package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx-qimpanel\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-26 11:54+0800\n"
+"POT-Creation-Date: 2017-04-12 11:57+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -206,7 +206,7 @@ msgstr ""
 msgid "Sougo Skin does not support preview and edit!"
 msgstr ""
 
-#: main_controller.cpp:276 system_tray_menu.cpp:107
+#: main_controller.cpp:276 system_tray_menu.cpp:115
 msgid "No input window"
 msgstr ""
 
@@ -226,46 +226,46 @@ msgstr ""
 msgid "Mozc Tool"
 msgstr ""
 
-#: system_tray_menu.cpp:121 system_tray_menu.cpp:367
+#: system_tray_menu.cpp:128 system_tray_menu.cpp:371
 msgid "Online &Help!"
 msgstr ""
 
-#: system_tray_menu.cpp:151 system_tray_menu.cpp:382
+#: system_tray_menu.cpp:158 system_tray_menu.cpp:386
 msgid "ConfigureFcitx"
 msgstr ""
 
-#: system_tray_menu.cpp:152 system_tray_menu.cpp:373
+#: system_tray_menu.cpp:159 system_tray_menu.cpp:377
 msgid "ConfigureIMPanel"
 msgstr ""
 
-#: system_tray_menu.cpp:156 system_tray_menu.cpp:392
+#: system_tray_menu.cpp:163 system_tray_menu.cpp:396
 msgid "Character Map"
 msgstr ""
 
-#: system_tray_menu.cpp:157 system_tray_menu.cpp:394
+#: system_tray_menu.cpp:164 system_tray_menu.cpp:398
 msgid "Keyboard Layout Chart"
 msgstr ""
 
-#: system_tray_menu.cpp:158 system_tray_menu.cpp:414
+#: system_tray_menu.cpp:165 system_tray_menu.cpp:418
 msgid "Text Entry Settings..."
 msgstr ""
 
-#: system_tray_menu.cpp:370
+#: system_tray_menu.cpp:374
 msgid "ConfigureIM"
 msgstr ""
 
-#: system_tray_menu.cpp:377
+#: system_tray_menu.cpp:381
 msgid "Warning"
 msgstr ""
 
-#: system_tray_menu.cpp:377
+#: system_tray_menu.cpp:381
 msgid "Please install fcitx-qimpanel-configtool!"
 msgstr ""
 
-#: system_tray_menu.cpp:385
+#: system_tray_menu.cpp:389
 msgid "Restart"
 msgstr ""
 
-#: system_tray_menu.cpp:389
+#: system_tray_menu.cpp:393
 msgid "Exit"
 msgstr ""

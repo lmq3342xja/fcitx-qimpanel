@@ -26,9 +26,9 @@ MyAction::MyAction(const QString &text, QObject *parent) : QAction(text, parent)
 }
 
 MyAction::MyAction(const QIcon &icon, const QString &text, QObject *parent)
-    : QAction(icon, text, parent)
+    : QAction(text, parent)
 {
-
+    this->setIcon(QIcon(icon.pixmap(QSize(16,16))));
 }
 
 MyAction::~MyAction()

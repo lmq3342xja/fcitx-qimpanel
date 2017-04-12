@@ -73,6 +73,9 @@ void SystemTrayMenu::init()
     QObject::connect(this, SIGNAL(aboutToShow()), this,
         SLOT(triggerUpdateIMListMenu()));
 
+    QObject::connect(this, SIGNAL(aboutToShow()), this,
+        SLOT(updateMainMenu()));
+
     QObject::connect(this, SIGNAL(triggered(QAction*)), this,
         SLOT(menuItemOnClick(QAction *)));
 
@@ -84,7 +87,12 @@ void SystemTrayMenu::init()
 
     QObject::connect(mAgent, SIGNAL(updateProperty(KimpanelProperty)), this,
         SLOT(updateProperty(KimpanelProperty)));
-      updateMainMenu();
+    triggerUpdateVKListMenu();
+    truggerUpdateMozcHiraganaMenu();
+    truggerUpdateMozcToolMenu();
+    triggerUpdateIMListMenu();
+    triggerUpdateIMListMenu();
+    updateMainMenu();
 }
 
 void SystemTrayMenu::registerProperties(const QList<KimpanelProperty> &props)
@@ -179,6 +187,7 @@ void SystemTrayMenu::truggerUpdateMozcToolMenu()
 {
     mAgent->triggerProperty(QString("/Fcitx/mozc-tool"));
 }
+
 void SystemTrayMenu::doUpdateVKListMenu(const QList<KimpanelProperty> &prop_list)
 {
     MyAction *menu;
@@ -300,7 +309,6 @@ void SystemTrayMenu::execMenu(const QList<KimpanelProperty> &prop_list)
 //                .arg(iter->label).arg(iter->icon).arg(iter->tip).arg(iter->state).arg(iter->menu);
         }
     }
-    updateMainMenu();
 
 }
 

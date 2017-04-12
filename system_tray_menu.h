@@ -38,7 +38,6 @@ public:
     void init();
 
 private:
-    void updateMainMenu();
 
 private slots:
     void clearMenu();
@@ -46,6 +45,7 @@ private slots:
     void triggerUpdateIMListMenu();
     void truggerUpdateMozcHiraganaMenu();
     void truggerUpdateMozcToolMenu();
+    void updateMainMenu();
     void menuItemOnClick(QAction* action);
 
 private:
